@@ -11,7 +11,7 @@ Once running, the script will keep checking for your stream to go live and post 
 Don't worry if there's a little delay before it says you're live, that's a Twitch issue.  
 
 ## Example Notification
-![Example Notification]((https://imgur.com/a/wxvVhns))
+![Example Notification](https://imgur.com/a/wxvVhns)
 
 ## Getting Started
 The only thing you will need to run this is Python 3, which can be [downloaded easily here.](https://ninite.com/python3/)  
