@@ -34,6 +34,14 @@ stream_url = ''
 numbers = [] #all the whatsapp numbers to send the notification
 config_path = '' # your config.ini path
 
+def get_lock():
+    try:
+        print("Acquiring lock...")
+        global lock
+        lock = zc.lockfile.LockFile('lock.lock')
+    except:
+        print("Failed to acquire lock, terminating...")
+        sys.exit()
 
 def config():
     config_file = configparser.ConfigParser()
