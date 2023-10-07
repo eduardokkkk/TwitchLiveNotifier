@@ -11,7 +11,7 @@ Once running, the script will keep checking for your stream to go live and post 
 Don't worry if there's a little delay before it says you're live, that's a Twitch issue.  
 
 ## Example Notification
-![Example Notification](https://imgur.com/a/wxvVhns)
+[Example Notification](https://imgur.com/a/wxvVhns)
 
 ## Getting Started
 The only thing you will need to run this is Python 3, which can be [downloaded easily here.](https://ninite.com/python3/)  
@@ -32,9 +32,6 @@ The included config_example.ini should give you a good idea of what the config.i
 #### User
 This is simply the username/handle of the streamer/broadcaster.  
 It can be written in whatever case you would like it to appear in the below Discord message/description placeholders, as it will be converted to lowercase automatically for internal functionality.
-#### ImagePriority
-This is what image should be attempted to be used first for the message, Game or Preview.  
-If the game logo or stream preview cannot be loaded, it will fall back to the user logo.
 #### ClientId
 This is the Client ID you can get from the [Twitch Developers console.](https://dev.twitch.tv/login)
 #### ClientSecret
