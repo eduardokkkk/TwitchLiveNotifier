@@ -28,7 +28,6 @@ twitch_client_id = ''
 twitch_secret_key = ''
 twitch_app_token_json = {}
 twitch_user = ''
-image_priority = ''
 stream_api_url = ''
 stream_url = ''
 numbers = [] #all the whatsapp numbers to send the notification
@@ -110,8 +109,6 @@ def config():
     global Twilio_message
     Twilio_message = Twilio_config['Message']
 
-    global Twilio_timeout 
-    Twilio_timeout = Twilio_config['timeout']
 
 
 
