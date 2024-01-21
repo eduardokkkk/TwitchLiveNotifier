@@ -2,7 +2,6 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LB2R9THJJW8EL)  
 Python script to notify on Whatsapp when the streamer goes live, with the current game and box art.  
 
-This was made to partially automate the process of notifying a Discord server that the broadcaster has gone live, while still adding useful information like the stream's title and game that would otherwise have to be done manually.
 
 ## How it works
 Once running, the script will keep checking for your stream to go live and send to the N whatsapp numbers when it goes live with the message of your choosing.
